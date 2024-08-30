@@ -1,9 +1,8 @@
 function Resume () {
     return (
-        <div className="resume">
-            <h1>Resume</h1>
-            <p>Download my <a href="#">resume</a></p>
-        </div>
+        <>
+          <embed src="./Resume.pdf" width="100%" height="800px" />  
+        </>
     )
 }
 

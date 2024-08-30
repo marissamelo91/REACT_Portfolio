@@ -1,7 +1,7 @@
-import project1 from "../images/project1.jpg";
+import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
-import project3 from "../images/project3.jpg";
-import project4 from "../images/project4.jpg";
+import project3 from "../images/project3.png";
+import project4 from "../images/project4.png";
 import project5 from "../images/project5.png";
 
 
@@ -14,31 +14,31 @@ function Projects() {
                 <h2 className="section-title primary-border">Work</h2>
                 <div className="work-container">
                     <div id="main-image" className="item-detail">
-                        <a href="https://www.nasa.gov/ames/">
-                            <img src={project1} alt="NASA-Logo" />
-                            <div className="bottom-left">NASA</div>
-                        </a>
+                        <a href="https://github.com/marissamelo91/My-Personal-Blog-"> 
+                            <img src={project1} alt="Halloween-Blog" />
+                            <div className="bottom-left">Halloween Blog</div>
+                        </a> 
                     </div>
 
                     <div className="small-image item-detail">
-                        <a href="https://en.wikipedia.org/wiki/Haunted_house">
-                            <img src={project2} alt="Haunted House" />
-                            <div className="bottom-left">Haunted House</div>
-                        </a>
+                         <a href="https://github.com/marissamelo91/Weather-Dashboard-">
+                            <img src={project2} alt="Weather-App" />
+                            <div className="bottom-left">Weather App</div>
+                         </a> 
                     </div>
 
                     <div className="small-image item-detail">
-                        <a href="https://en.wikipedia.org/wiki/Mancala">
-                            <img src={project3} alt="Mancala-Boardgame" />
-                            <div className="bottom-left">Mancala</div>
-                        </a>
+                        <a href="https://github.com/marissamelo91/Tuesday-Task-Board"> 
+                            <img src={project3} alt="Task-Board" />
+                            <div className="bottom-left">Task Board</div>
+                        </a> 
                     </div>
 
                     <div className="small-image item-detail">
-                        <a href="https://www.oracle.com/erp/what-is-erp/">
-                            <img src={project4} alt="ERP Software" />
-                            <div className="bottom-left">ERP Software</div>
-                        </a>
+                       <a href="https://github.com/urie-w/CribQuests">
+                            <img src={project4} alt="Real-Estate-Website" />
+                            <div className="bottom-left">Real Estate Listings Webpage</div>
+                        </a> 
                     </div>
 
                     <div className="small-image item-detail">

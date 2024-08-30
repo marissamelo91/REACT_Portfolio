@@ -1,3 +1,4 @@
+import girl from "../images/girl.jpg";
 
 function About() {
     return (
@@ -5,6 +6,7 @@ function About() {
 
         <section id="about-me">
             <div className="section-detail">
+            <img src={girl} alt="Girl Avator" />
                 <h2 className="section-title primary-border">About Me</h2>
                 <p>
                     I'm a first generation American, born and raised in the Bay Area.
