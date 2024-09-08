@@ -1,4 +1,6 @@
+import { Link, useLocation } from "react-router-dom";
 function NavBar() {
+    const location = useLocation();
 
     function isSelected(page) {
         if (page == window.location.href.split("/").pop()) {
@@ -13,10 +15,10 @@ function NavBar() {
             <h1>Marissa Melo</h1>
             <ul>
 
-                <li><a href="/" className={isSelected("")}>About</a></li>
-                <li><a href="/projects" className={isSelected("projects")}>Projects</a></li>
-                <li><a href="/resume" className={isSelected("resume")}>Resume</a></li>
-                <li><a href="/contact" className={isSelected("contact")}>Contact</a></li>
+                <li><Link to="/" className={isSelected("")}>About</Link></li>
+                <li><Link to="/projects" className={isSelected("projects")}>Projects</Link></li>
+                <li><Link to="/resume" className={isSelected("resume")}>Resume</Link></li>
+                <li><Link to="/contact" className={isSelected("contact")}>Contact</Link></li>
 
             </ul>
         </nav>
