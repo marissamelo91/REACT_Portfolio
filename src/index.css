@@ -133,3 +133,30 @@ img {
   font:bolder;
   color:azure;
 }
+
+#footer-links-container{
+  margin: 5px;
+  font-size: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction:row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  padding: 10px;
+  }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+a:visited, a {
+  color: white !important;
+  } 

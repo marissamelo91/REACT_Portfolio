@@ -11,7 +11,7 @@ function Projects() {
 
         <section id="work">
             <div className="section-detail">
-                <h2 className="section-title primary-border">Work</h2>
+                <h2 className="section-title primary-border">Projects</h2>
                 <div className="work-container">
                     <div id="main-image" className="item-detail">
                         <a href="https://github.com/marissamelo91/My-Personal-Blog-"> 
