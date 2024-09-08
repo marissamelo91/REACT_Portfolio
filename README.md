@@ -25,8 +25,8 @@ React Router: For client-side routing.
 ![screen shot](./public/Resume.png)
 
 ## Contact
-Feel free to reach out to me if you have any questions or feedback!
-Email: marissa.melo91@yahoo.com
-GitHub: https://github.com/marissamelo91
+Feel free to reach out to me if you have any questions or feedback! </br>
+Email: marissa.melo91@yahoo.com </br>
+GitHub: https://github.com/marissamelo91 </br>
 
 
